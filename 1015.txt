@@ -1,0 +1,23 @@
+
+package com.mycompany.exercicios;
+import java.awt.BorderLayout;
+     import java.util.Scanner;
+public class ExerciciosMain {
+
+    public static void main(String[] args) {
+   Scanner sc = new Scanner (System.in);
+   double a, b, c, d, dist;
+        System.out.println("Insira o prmeiro número:");
+        a = sc.nextDouble();
+        System.out.println("Insira o segundo número:");
+        b = sc.nextDouble();
+        System.out.println("Insira o terceiro número:");
+        c = sc.nextDouble();
+        System.out.println("Insira o quarto número:");
+        d = sc.nextDouble();
+        dist = Math.sqrt(Math.pow((b-a), 2)+ Math.pow((d-c), 2));
+        System.out.println("Distância = " +dist);
+                
+    }
+    
+}

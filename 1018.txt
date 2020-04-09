@@ -1,0 +1,28 @@
+
+package com.mycompany.exercicios;
+import java.awt.BorderLayout;
+     import java.util.Scanner;
+public class ExerciciosMain {
+
+    public static void main(String[] args) {
+   Scanner sc = new Scanner (System.in);
+   int valor, n100, n50, n20, n10, n5, n2, n1;
+        System.out.println("Insira o valor total:");
+        valor = sc.nextInt();
+        n100 = valor/100;
+        n50 = valor%100/50;
+        n20 = (valor%100)%50/20;
+        n10 = ((valor%100)%50%20)/10;
+        n5 = (((valor%100)%50%20)%10)/5;
+        n2 = ((((valor%100)%50%20)%10)%5)/2;
+        n1 = (((((valor%100)%50%20)%10)%5)%2)/1;
+        System.out.println("Notas de 100 = " +n100);
+        System.out.println("Notas de 50 = " +n50);
+        System.out.println("Notas de 20 = "+n20);
+        System.out.println("Notas de 10 = "+n10);
+        System.out.println("Notas de 5 = "+n5);
+        System.out.println("Notas de 2 = "+n2);
+        System.out.println("Notas de 1 = "+n1);
+    }
+    
+}

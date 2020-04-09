@@ -1,0 +1,26 @@
+
+package com.mycompany.exercicios;
+import java.awt.BorderLayout;
+     import java.util.Scanner;
+public class ExerciciosMain {
+
+    public static void main(String[] args) {
+   Scanner sc = new Scanner (System.in);
+   int a, b, c, maior;
+        System.out.println("Insira o primeiro número:");
+        a = sc.nextInt();
+        System.out.println("Insira o segundo número:");
+        b = sc.nextInt();
+        System.out.println("Insira o terceiro número:");
+        c = sc.nextInt();
+        if (a-b>=0){
+            maior = a;}
+        else{ maior = b;}
+        if (maior-c<0){
+            maior = c;
+        }
+        System.out.println("O maior número é:" +maior);
+                
+    }
+    
+}

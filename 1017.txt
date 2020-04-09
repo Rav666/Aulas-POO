@@ -1,0 +1,19 @@
+
+package com.mycompany.exercicios;
+import java.awt.BorderLayout;
+     import java.util.Scanner;
+public class ExerciciosMain {
+
+    public static void main(String[] args) {
+   Scanner sc = new Scanner (System.in);
+   int tempo, distancia;
+   float resposta;
+        System.out.println("Insira as horas:");
+        tempo = sc.nextInt();
+        System.out.println("Insira a distancia:");
+        distancia = sc.nextInt();
+        resposta = tempo*distancia/12;
+        System.out.println("Resposta = " +resposta);
+    }
+    
+}

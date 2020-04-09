@@ -1,0 +1,42 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exerciciosbasicos;
+
+/**
+ *
+ * @author Nairon Luiz
+ */
+import java.util.Scanner;
+public class ExerciciosBasicos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner leitura = new Scanner(System.in);
+        double a, b, c, tr, area, trap, quad, ret;
+        System.out.println("Insira o primeiro valor:");
+        a = leitura.nextInt();
+        System.out.println("Insira o segundo valor:");
+        b = leitura.nextInt();
+        System.out.println("Insira o terceiro valor:");
+        c = leitura.nextInt();
+        tr = (a*c)/2;
+        area = 3.14*Math.pow(c, 2);
+        trap = ((a+b)*c)/2;
+        quad = Math.pow(b, 2);
+        ret = a*b;
+        
+        System.out.println("Triangulo: " +tr);
+        System.out.println("Trapezio: " +trap);
+        System.out.println("Quadrado: " +quad);
+        System.out.println("Circulo: " +area);
+        System.out.println("Retangulo: " +ret);
+  
+        // TODO code application logic here
+    }
+    
+}

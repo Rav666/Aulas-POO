@@ -1,0 +1,42 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exerciciosbasicos;
+
+/**
+ *
+ * @author Nairon Luiz
+ */
+import java.util.Scanner;
+public class ExerciciosBasicos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner leitura = new Scanner(System.in);
+        double val1, val2, total;
+        int cod1, num1, cod2, num2;
+        System.out.println("Insira o código da primeira peça:");
+        cod1 = leitura.nextInt();
+        System.out.println("Insira a quantidade de vendas da primeira peça:");
+        num1 = leitura.nextInt();
+        System.out.println("Insira o valor unitário da primeira peça:");
+        val1 = leitura.nextFloat();
+        System.out.println("Insira o código da segunda ppeça");
+        cod2 = leitura.nextInt();
+        System.out.println("Insira a quantiodade de vendas da segunda peça");
+        num2 = leitura.nextInt();
+        System.out.println("Insira o valor unitário da segunda peça");
+        val2 = leitura.nextFloat();
+        val1 = val1*num1;
+        val2 = val2*num2;
+        total = val1+val2;
+        System.out.println("Valor total R$:" +total);
+  
+        // TODO code application logic here
+    }
+    
+}

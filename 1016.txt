@@ -1,0 +1,15 @@
+
+package com.mycompany.exercicios;
+import java.awt.BorderLayout;
+     import java.util.Scanner;
+public class ExerciciosMain {
+
+    public static void main(String[] args) {
+   Scanner sc = new Scanner (System.in);
+   float x;
+        System.out.println("Insira a distância:");
+        x = sc.nextFloat();
+        System.out.println("Distancia: " +x*2);
+    }
+    
+}

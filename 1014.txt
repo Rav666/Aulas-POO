@@ -1,0 +1,19 @@
+
+package com.mycompany.exercicios;
+import java.awt.BorderLayout;
+     import java.util.Scanner;
+public class ExerciciosMain {
+
+    public static void main(String[] args) {
+   Scanner sc = new Scanner (System.in);
+   float km, litros, total;
+        System.out.println("Insira os litros gastos:");
+        litros = sc.nextFloat();
+        System.out.println("Insira os kilometros percorridos:");
+        km = sc.nextFloat();
+        total = litros/km;
+        System.out.println("O consumo médio foi de:" +total);
+                
+    }
+    
+}
